@@ -1,0 +1,160 @@
+
+ 
+    <div class="main-inner-gray">
+ <div class="container">
+     
+     <div class="row">
+         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+             <div class="sidebar inner-sidebr">
+                  <ul class="main-categories inner-sidebar">
+                        <li class="active"><a href="index.html#!/dashboard-my-profile" class="profile-icon">Profile</a></li>
+                        <li><a href="index.html#!/dashboard-change-password" class="change-password-icon">Change Password</a></li>
+                        <li><a href="index.html#!/dashboard-my-listing" class="my-listing-icon">My Listing</a></li>
+                        <li><a href="index.html#!/dashboard-add-listing" class="add-listing-icon">Add Listing</a></li>
+                        <li><a href="index.html#!/dashboard-received-inquiry" class="received-inquiry-icon">Received Inquiry</a></li>
+                        <li><a href="index.html#!/dashboard-favorite" class="favourite-icon">Favourite</a></li>
+                        <li><a href="#" class="logout-icon">Logout</a></li>
+                    </ul>
+             </div>
+             
+             
+         </div>
+         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
+            <div class="main-inner">
+             <form name="loginForm" action="user/addlisting" novalidate>
+    
+             <div class="row">
+                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><div class="title-inner-page">Edit Profile</div></div>
+                
+                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                      <div class="form-group input-box-w inner-inpt" ng-class="{ 'has-error': loginForm.firstname.$touched && loginForm.firstname.$invalid }">
+                         <input type="text" class="input-box" ng-init="user.firstname='Bhavesh'" name="text" ng-model="user.firstname" ng-minlength="5" ng-maxlength="20" required/>
+                         <span class="highlight"></span>
+                         <span class="bar"></span>
+                         <div ng-messages="loginForm.firstname.$error" ng-if="loginForm.$submitted || loginForm.firstname.$touched">
+                         <div ng-messages-include="error-message.html"></div>
+                         </div>
+                         <label>First Name</label>
+                      </div>
+                 </div>
+                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                      <div class="form-group input-box-w inner-inpt" ng-class="{ 'has-error': loginForm.lastname.$touched && loginForm.lastname.$invalid }">
+                         <input type="text" class="input-box" name="text" ng-init="user.lastname='More'" ng-model="user.lastname" ng-minlength="5" ng-maxlength="20" required/>
+                         <span class="highlight"></span>
+                         <span class="bar"></span>
+                         <div ng-messages="loginForm.lastname.$error" ng-if="loginForm.$submitted || loginForm.lastname.$touched">
+                         <div ng-messages-include="error-message.html"></div>
+                         </div>
+                         <label>Last Name</label>
+                      </div>
+                 </div>
+                 <div class="clr"></div>
+               
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                      <div class="form-group input-box-w inner-inpt" ng-class="{ 'has-error': loginForm.email.$touched && loginForm.email.$invalid }">
+                        <input type="email" class="input-box" name="email" ng-init="user.email='bhaveshm@webwingtechnologies.com'" ng-model="user.email" ng-minlength="5" ng-maxlength="20" required/>
+                         <span class="highlight"></span>
+                         <span class="bar"></span>
+                         <div ng-messages="loginForm.email.$error" ng-if="loginForm.$submitted || loginForm.email.$touched">
+                          <div ng-messages-include="error-message.html"></div>
+                        </div>
+                         <label>Email Address</label>
+                     </div>
+                 </div>
+                 
+                 
+                 
+                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                      <div class="form-group input-box-w inner-inpt" ng-class="{ 'has-error': loginForm.numberphone.$touched && loginForm.numberphone.$invalid }">
+                         <input type="text" class="input-box" name="text" ng-init="user.numberphone='+918095831608'" ng-model="user.numberphone" ng-minlength="5" ng-maxlength="20" required/>
+                         <span class="highlight"></span>
+                         <span class="bar"></span>
+                         <div ng-messages="loginForm.numberphone.$error" ng-if="loginForm.$submitted || loginForm.numberphone.$touched">
+                         <div ng-messages-include="error-message.html"></div>
+                         </div>
+                         <label>Mobile Phone Number</label>
+                      </div>
+                 </div>
+                 <div class="clr"></div>
+                 
+                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                 <div class="select-bock-container">
+                        <select>
+                            
+                            <option>male</option>
+                            <option>female</option>
+                        </select>
+                  </div>
+                 </div>
+                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                  <div class="form-group input-box-w inner-inpt" ng-class="{ 'has-error': loginForm.age.$touched && loginForm.age.$invalid }">
+                         <input type="text" class="input-box" name="text" ng-init="user.age='26'" ng-model="user.age" ng-minlength="5" ng-maxlength="20" required/>
+                         <span class="highlight"></span>
+                         <span class="bar"></span>
+                         <div ng-messages="loginForm.age.$error" ng-if="loginForm.$submitted || loginForm.age.$touched">
+                         <div ng-messages-include="error-message.html"></div>
+                         </div>
+                         <label>Age</label>
+                      </div>
+                 </div>
+                 <div class="clr"></div>
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                 <div class="select-bock-container">
+                        <select>
+                            <option>India</option>
+                            <option>USA</option>
+                        </select>
+                  </div>
+                 </div>
+                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                  <div class="form-group input-box-w inner-inpt" ng-class="{ 'has-error': loginForm.countryresidence.$touched && loginForm.countryresidence.$invalid }">
+                         <input type="text" class="input-box" name="text" ng-init="user.countryresidence='USA'" ng-model="user.countryresidence" ng-minlength="5" ng-maxlength="20" required/>
+                         <span class="highlight"></span>
+                         <span class="bar"></span>
+                         <div ng-messages="loginForm.countryresidence.$error" ng-if="loginForm.$submitted || loginForm.countryresidence.$touched">
+                         <div ng-messages-include="error-message.html"></div>
+                         </div>
+                         <label>Country of Residence</label>
+                      </div>
+                 </div>
+                 <div class="clr"></div>
+                 
+                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <div class="form-group input-box-w inner-inpt" ng-class="{ 'has-error': loginForm.address.$touched && loginForm.address.$invalid }">
+                    
+                          <textarea cols="" class="input-box textarea-txt" rows=""  ng-init="user.address='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur rem beatae fuga tempora'" ng-model="user.address" ng-minlength="5" ng-maxlength="20" required></textarea>
+                          
+                         <span class="highlight"></span>
+                         <span class="bar"></span>
+                         <div ng-messages="loginForm.address.$error" ng-if="loginForm.$submitted || loginForm.address.$touched">
+                         <div ng-messages-include="error-message.html"></div>
+                         </div>
+                         <label>Address</label>
+                         
+                         
+                         
+                         
+                      </div>
+                 </div>
+                  <div class="clr"></div>
+                  
+                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                     <div class="button-innerpage">
+                         <a href="#">Save</a>
+                     </div>
+                 </div>
+                 
+                 
+             </div>
+             
+             
+             
+            </form>
+             
+         </div>
+         </div>
+     
+ </div>
+</div> 
+
+    </div>

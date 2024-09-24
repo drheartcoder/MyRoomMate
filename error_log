@@ -1,0 +1,7 @@
+[10-Sep-2017 10:36:04 Asia/Kolkata] PHP Fatal error:  Call to a member function result_array() on boolean in /home/myroommate/public_html/application/models/Master_model.php on line 74
+[11-Sep-2017 13:07:19 Asia/Kolkata] PHP Fatal error:  Call to a member function result_array() on boolean in /home/myroommate/public_html/application/models/Master_model.php on line 74
+[13-Sep-2017 10:06:50 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[16-Sep-2017 14:21:07 Asia/Kolkata] PHP Fatal error:  Call to a member function result_array() on boolean in /home/myroommate/public_html/application/models/Master_model.php on line 74
+[17-Sep-2017 23:58:33 Asia/Kolkata] PHP Fatal error:  Call to a member function result_array() on boolean in /home/myroommate/public_html/application/models/Master_model.php on line 74
+[18-Sep-2017 00:00:15 Asia/Kolkata] PHP Fatal error:  Call to a member function result_array() on boolean in /home/myroommate/public_html/application/models/Master_model.php on line 74
+[18-Sep-2017 00:00:48 Asia/Kolkata] PHP Fatal error:  Call to a member function result_array() on boolean in /home/myroommate/public_html/application/models/Master_model.php on line 74

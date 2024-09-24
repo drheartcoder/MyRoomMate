@@ -1,0 +1,66 @@
+/* Header example */
+.example { margin: 20px 0px; border: 1px solid #ccc; border-radius: 4px; }
+
+.example button, .example button { padding: 0 10px; color: #000; opacity: .5; }
+.example button:hover, .example button:hover { opacity: 1; }
+.example button:disabled, .example button:disabled { opacity: .2; }
+
+.example .forward, .example .backward { float: left; width: 28px; height: 65px; font-size: 40px; border: 1px solid #ccc;background-color: #eff6fb; }
+.example .forward { float: right; background-image: url("../../../images/front/cal-arrow-right.png"); background-position:center;  background-repeat: no-repeat; background-size: 28px 60px;}
+.example .backward{background-image: url("../../../images/front/cal-arrow-left.png"); background-repeat: no-repeat; background-position:center;background-color: #eff6fb;background-size: 28px 60px;}
+
+.example .frame { margin: 0 auto; height: 65px; overflow: hidden; text-shadow: none; width: auto;background-color: #eff6fb}
+.example .frame ul { list-style: none; margin: 0; padding: 0; height: 100%; font-size: 26px; }
+.example .frame ul li {  float: left; padding: 15px 0px; width: 75px; height: 100%; color: #3a3c47; text-align: center; cursor: pointer; border-left: 1px solid #ccc; border-right: 1px solid #ccc;
+}
+.example .frame ul li p{font-size: 12px;}
+.example .frame ul li i{font-size: 16px; color: #bf1e2e; position: absolute; margin-left: 0px; margin-top: -3px;}
+.example .frame ul li.active { color: #fff; background: #034a7c;padding: 15px; }
+.example .frame ul li.active i { color: #fff; }
+.example .frame ul li.disable { color: #d2d2d2; padding: 15px;}
+
+.example .scrollbar { margin: 0 auto 30px; width: 940px; height: 2px; line-height: 0; }
+.example .scrollbar .handle { width: 100px; height: 100%; background: #fff; cursor: pointer; }
+.example .scrollbar .handle .mousearea { position: absolute; top: -9px; left: 0; width: 100%; height: 20px; }
+
+.example .pages { list-style: none; margin: 20px 0; padding: 0; text-align: center; }
+.example .pages li { display: inline-block; width: 14px; height: 14px; margin: 0 4px; text-indent: -999px; border-radius: 10px; cursor: pointer; overflow: hidden;
+	background: #fff; box-shadow: inset 0 0 0 1px rgba(0,0,0,.2);
+}
+.example .pages li:hover { background: #aaa; }
+.example .pages li.active { background: #666; }
+
+.example .controls { margin: 50px 0 0; text-align: center; }
+.example .controls .divider { display: inline-block; margin: 0 10px; }
+.example .controls button { line-height: 32px; vertical-align: middle; font-family: Novecento, sans-serif; }
+.example .controls button i { position: relative; top: -2px; margin: 5px; padding: 0; font-size: 32px; vertical-align: middle; }
+
+.example .list-group{overflow-y: scroll; max-height: 400px; border-radius: 0; margin-bottom: 0;}
+.example .list-group .list-group-item .cal-time{color: #319fb5; font-size: 20px; }
+.example .list-group .list-group-item{border-bottom: 1px solid #ccc; border-left: none; border-right: none;}
+.example .list-group .list-group-item:hover{background: #e2f1f4;}
+.example .list-group .list-group-item .cal-price{font-size: 20px;}
+.example .list-group .list-group-item .cal-red-price{margin-left:30px;  font-size: 20px; color: #bf1e2e;}
+.example .list-group .list-group-item .cal-red-price i{font-size: 14px; margin-left: 5px;}
+.example .list-group .list-group-item .strike{text-decoration: line-through;}
+.example .list-group .list-group-item .btn-select .btn{margin: 0; opacity: 10; color: #fff; font-size: 14px; padding: 6px 30px; float: right;}
+
+@media all and (max-width: 320px){
+    .example .list-group .list-group-item .cal-red-price{margin-left: 0 !important;}
+    .example .list-group .list-group-item .cal-price{font-size: 16px;}
+    .example .list-group .list-group-item .cal-time{font-size: 16px;}
+   .example .list-group .list-group-item .cal-red-price{font-size: 16px;}
+}
+@media all and (max-width: 360px){
+    .example .list-group .list-group-item .cal-red-price{margin-left: 0 !important;}
+    .example .list-group .list-group-item .cal-price{font-size: 16px;}
+    .example .list-group .list-group-item .cal-time{font-size: 16px;}
+   .example .list-group .list-group-item .cal-red-price{font-size: 16px;}
+}
+@media all and (max-width: 480px){
+    
+    .example .list-group .list-group-item .cal-price{font-size: 16px;}
+    .example .list-group .list-group-item .cal-time{font-size: 16px;}
+   .example .list-group .list-group-item .cal-red-price{font-size: 16px;}
+
+}

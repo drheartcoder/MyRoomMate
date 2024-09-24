@@ -1,0 +1,110 @@
+/*Payment Method start here*/
+.portfli-uls ul li h4{height: 30px; overflow: hidden;}
+.project-list ul li:last-child{background:none;}
+.search-grey-bx.change-pad.bordr-botm {border-bottom: medium none !important;}
+/*.pdro-dtl-nm {word-break: break-all;}*/
+.user_box-imf {margin-bottom: 20px;position: relative;}
+.user_box-imf .input-bx-f {border: 1px solid #d6d6d6;border-radius: 3px;color: #333333;display: block;font-size: 14px;height: 35px;line-height: normal;margin-top: 5px;padding: 0 10px;text-indent: 3px;width: 100%;}
+.user_box-imf .img-odiv{ position: absolute; right: 10px; top: 5px;}
+.main-revs.last-mg-none{margin-bottom: 0px;}
+.rate-gg {display: inline-block;height: 26px;padding: 0 10px;}
+.rate-gg:not(:checked) > input {position:absolute;top:-9999px;}
+.rate-gg:not(:checked) > label {float:right;width:1em;overflow:hidden;white-space:nowrap;cursor:pointer;font-size:25px;color:#c2c2c2;}
+.rate-gg:not(:checked) > label:before {content: '★ ';}
+.rate-gg > input:checked ~ label {color: #feb70b;    }
+.rate-gg:not(:checked) > label:hover,
+.rate-gg:not(:checked) > label:hover ~ label {color: #feb70b;  }
+.rate-gg > input:checked + label:hover,
+.rate-gg > input:checked + label:hover ~ label,
+.rate-gg > input:checked ~ label:hover,
+.rate-gg > input:checked ~ label:hover ~ label,
+.rate-gg > label:hover ~ input:checked ~ label {color: #feb70b;}
+
+.search-grey-bx.border-all-sm{border: 1px solid #ececec !important;background-color: #fdfdfd; padding: 10px;}
+.search-grey-bx.border-all-sm .project-list li{font-size: 11px;font-family: 'Fira Sans', sans-serif;font-weight: 600; margin-bottom: 10px;}
+.search-grey-bx.border-all-sm .srch-list{margin-bottom: 10px;}
+.search-grey-bx.border-all-sm .srch-list p{color: #777777;font-family: 'Fira Sans', sans-serif;}
+.search-grey-bx.border-all-sm .search-left-head{color: #4f4f4f;}
+.cals-icns{color: #018dba;font-family: 'Fira Sans', sans-serif; font-weight: 600; font-size: 13px; margin-top: 15px;}
+.delete_button a{color:#777777;}
+.delete_button a:hover{color: #74b735;}
+.del_button a{color:#777777;}
+.del_button a:hover{color:#025e8e;}
+.cals-icns span{margin-right: 7px;}
+
+
+.duy-txts{color: #6fb131;font-size: 14px; font-family: 'Fira Sans', sans-serif;}
+.duy-txts-client{color: #337ab7;font-size: 14px; font-family: 'Fira Sans', sans-serif;}
+
+.right-imgrev p{color: #828282 !important; font-size: 14px !important; font-family: "Fira Sans, sans-serif" !important;}
+.star-hovr{background-image:url('../images/star-hovr-o.png'); background-repeat: repeat; height: 16px; width: 17px}
+.dispute-head-doted.doted-none{border-bottom: none; margin-bottom: 0px; padding-bottom: 0px;}
+.portfli-uls h4{color: #018dba; font-size: 14px; font-family: 'Fira Sans', sans-serif; text-align: center;}
+.main-revs {margin: 20px 0 20px 0px; font-family: 'Fira Sans', sans-serif; font-weight: 100;font-size: 16px;}
+.main-revs .right-imgrev { display: inline-block;width: 94%; text-align: justify;}
+.main-revs .left-imgrev{float: left; margin-right: 15px; margin-top: 13px;}
+.main-revs .left-imgrev img{ border-radius: 50%; height: 50px; width: 50px; vertical-align: top;}
+.skil-margin{ margin-top: 13px;}
+.dispute-head-doted {border-bottom: 1px dashed #cecece;color: #018dba;font-family: 'Fira Sans', sans-serif; font-weight: 600;font-size: 18px;margin-bottom: 15px;padding-bottom: 15px;}
+.dispute-head-doted p {color: #333;font-family: 'Fira Sans', sans-serif; font-weight: 100;font-size: 15px;margin-bottom: 5px;margin-top: 6px;}
+.titl-xtext {display: block;font-family: 'Fira Sans', sans-serif; font-weight: 600;font-size: 16px;padding: 10px 0;}
+.main-whiteobx{background-color: #fff; padding:20px;border: 1px solid #e8e7e7;}
+.portfli-uls ul li {border-radius: 4px;display: inline-block;margin-right: 30px;max-width: 90px;vertical-align: top;width: 100%; margin-top: 20px;}
+.portfli-uls ul li img{  border-radius: 4px;height: 80px;width: 90px;box-shadow: 0 3px 2px 0; color: #ccc;}
+.btn-apymt{max-width: 240px; width: 100%; float: right;}
+.portfli-uls ul li h5{ font-size: 13px; color: #69696a; font-weight: normal; text-align: center;}
+.btn-apymt .btn-paymts {background: #74b735 none repeat scroll 0 0;border: 1px solid #74b735;border-radius: 3px;color: #fff;float: right;font-size: 16px;height: 40px;margin-top: 5px;padding: 0 20px;}
+.btn-apymt .btn-paymts:hover {background: #fff;box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);color: #74b735;}
+.billing_cycle.act .subscrib_view {background: #192e3f ;color: #fff;}
+.billing_cycle.act .active-icon {padding: 0 !important;}
+.billing_cycle .active-icon {padding: 19px 0 !important;text-align: center;}
+.pay-tril span { color: #192e3f;}
+.pay-tril {color: #707171;font-size: 16px;}
+.free-tril {color: #192e3f;font-size: 16px;}
+.container1-b {background: #f8f8f8 ;border: 1px solid #c0d731;border-radius: 3px;bottom: -107px;max-width: 66%;padding: 11px;left: 0;position: absolute;width: 100%}
+.pull-right.container1-b {right: 0;left: auto;}
+.crd {margin-top: -2px;}
+.side-menu {margin-top: 47px;}
+.side-menu li {background: #e5e4e4; margin-bottom: 10px;border-color: #c9c9c9;border-style: solid;border-width: 0;list-style: outside none none;padding: 1px; font-size: 14px;text-align: left; cursor: pointer;}
+.side-menu ul li.last-border a{ color:#192e3f;padding-left: 15px;}
+.side-menu a.act {color: #018dba !important;font-size: 16px;height: 52px;width: 300px;}
+.side-menu span {font-size: 31px;padding: 0 10px;vertical-align: middle;}
+.side-menu li.active-pay {background-color: #018dba;background-image: url("../images/arrow_pay.jpg");background-position: right center;
+background-repeat: no-repeat;border: 0 none !important;color: #fff !important;margin-right: -34px; cursor: pointer; }
+a.common:hover{text-decoration: none !important;z-index: 1;}
+.side-menu li.active-pay {position: relative;background: #018dba;z-index: 1;}
+
+.col-sm-3.col-md-3.col-lg-4.p-r, .col-sm-9.col-md-9.col-lg-8.pp-l{padding: 0px;}
+
+.side-menu li.active-pay:after {left: 100%;top: 50%;    z-index: 1;border: solid transparent;content: " ";height: 0;width: 0;color: #FFF;position: absolute;pointer-events: none;border-color: rgba(241, 241, 241, 0);border-left-color: #018dba;border-width: 25px;margin-top: -25px;}
+.payment_card {background: #fff ;border: 1px solid #e8e7e7;padding: 0 19px 23px 67px;}
+.top_card_icon {border-bottom: 1px solid #dedede;padding: 20px 0 16px; margin-bottom: 18px;}
+.card_title {color: #3a3939;float: left;font-size: 14px;margin-right: 8px;padding-top: 5px;}
+.col-sm-3.col-md-3.col-lg-3.p-r {  z-index: 1; right: -15px;}
+.card_icon_img > a {color: #018dba;font-size: 24px;margin: 0 5px;}
+.col-sm-9.col-md-9.col-lg-9.pp-l {padding-left: 0;}
+.droup-select {background-color: #fff;background-image: url("../images/select-drop.png");background-position: right center;background-repeat: no-repeat;
+border: 1px solid #e4e4e4;border-radius: 3px;display: inline-block;height: 40px;width: 100%;}
+.droup {-moz-appearance: none;background-color: transparent;border: medium none;color: #6b6a6a;font-size: 16px;height: 100%;padding-left: 7px;
+width: 99.9%;}
+.input-bx-b {border: 1px solid #d6d6d6;border-radius: 3px;color: #333333;display: block;font-size: 14px;height: 35px;line-height: normal;margin-top: 5px;text-indent: 3px;width: 100%;padding: 0 10px;}
+.user_box {margin-bottom: 20px; position: relative;}
+.user_box .input-bx-b .card_icon_img {padding-top: 4px;text-align: right;}
+.user_box .input-bx-b .card_icon_imgs {padding-top: 4px;text-align: right;}
+.tra-input {background: transparent ;border: 0 none;display: inline-block;float: left;height: 35px;width: 55%;}
+.input-bx-b.input-card {max-width: 68px; display: inline-block;}
+.user_box span {margin-left: 7px;}
+.label_text {color: #535353;float: left;margin-right: 5px;}
+.input-bx-b.exp {width: 51%;}
+.label_text {color: #535353;float: left;  font-size: 16px;margin-right: 8px;padding-top: 5px;}
+.cont-btn {background: #192e3f ;border: 1px solid #192e3f;border-radius: 3px;color: #fff;display: block;font-size: 16px;height: 41px;padding:8px 28px;text-align: center;}
+.cont-btn:hover{ background: rgba(0,0,0,0); color: #192e3f;}
+.payment-form .pay-tril > span {color: #585858;}
+.payment-form .pay-tril {color: #585858;font-size: 14px;   margin-bottom: 20px;}
+.billing_cycle .subscrib_view {text-transform: capitalize;}
+.ssl_encr {color: #b0b0b0;font-size: 16px;margin-bottom: 10px;}
+.payment_section {padding-bottom: 10px;padding-top: 15px;}
+.user_box .card_icon_img > a {margin: 0 0px;}
+/*error msg*/
+.error_msg {color: red;font-size: 12px;position: absolute;}
+/*Payment Method End here*/

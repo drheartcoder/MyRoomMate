@@ -1,0 +1,48 @@
+ALTER TABLE `tbl_user_master` CHANGE `password` `password` VARCHAR(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL;
+
+Fatal error: Maximum execution time of 300 seconds exceeded
+
+UPDATE `tbl_addlisting` SET `cat_id` = '233' WHERE `tbl_addlisting`.`old_cat_id` = 105;
+UPDATE `tbl_addlisting` SET `cat_id` = '145' WHERE `tbl_addlisting`.`old_cat_id` = 106;
+UPDATE `tbl_addlisting` SET `cat_id` = '235' WHERE `tbl_addlisting`.`old_cat_id` = 107;
+UPDATE `tbl_addlisting` SET `cat_id` = '234' WHERE `tbl_addlisting`.`old_cat_id` = 108;
+UPDATE `tbl_addlisting` SET `cat_id` = '233' WHERE `tbl_addlisting`.`old_cat_id` = 109;
+UPDATE `tbl_addlisting` SET `cat_id` = '232' WHERE `tbl_addlisting`.`old_cat_id` = 110;
+UPDATE `tbl_addlisting` SET `cat_id` = '232' WHERE `tbl_addlisting`.`old_cat_id` = 112;
+UPDATE `tbl_addlisting` SET `cat_id` = '226' WHERE `tbl_addlisting`.`old_cat_id` = 113;
+UPDATE `tbl_addlisting` SET `cat_id` = '230' WHERE `tbl_addlisting`.`old_cat_id` = 114;
+UPDATE `tbl_addlisting` SET `cat_id` = '229' WHERE `tbl_addlisting`.`old_cat_id` = 115;
+UPDATE `tbl_addlisting` SET `cat_id` = '228' WHERE `tbl_addlisting`.`old_cat_id` = 116;
+UPDATE `tbl_addlisting` SET `cat_id` = '227' WHERE `tbl_addlisting`.`old_cat_id` = 118;
+UPDATE `tbl_addlisting` SET `cat_id` = '208' WHERE `tbl_addlisting`.`old_cat_id` = 119;
+UPDATE `tbl_addlisting` SET `cat_id` = '222' WHERE `tbl_addlisting`.`old_cat_id` = 120;
+
+UPDATE `tbl_addlisting` SET `availability` = 'Immediately'
+
+UPDATE `tbl_addlisting` SET `is_delete`='1' WHERE `created_date` <= '2015-12-31' 
+
+
+UPDATE `tbl_category_form_fields` SET `cat_id` = '112' WHERE `tbl_category_form_fields`.`cat_id` = 113;
+UPDATE `tbl_category_form_fields` SET `cat_id` = '272' WHERE `tbl_category_form_fields`.`cat_id` = 226;
+UPDATE `tbl_category_form_fields` SET `cat_id` = '183' WHERE `tbl_category_form_fields`.`cat_id` = 232;
+UPDATE `tbl_category_form_fields` SET `cat_id` = '145' WHERE `tbl_category_form_fields`.`cat_id` = 236;
+UPDATE `tbl_category_form_fields` SET `cat_id` = '132' WHERE `tbl_category_form_fields`.`cat_id` = 231;
+UPDATE `tbl_category_form_fields` SET `cat_id` = '58' WHERE `tbl_category_form_fields`.`cat_id` = 235;
+UPDATE `tbl_category_form_fields` SET `cat_id` = '195' WHERE `tbl_category_form_fields`.`cat_id` = 233;
+UPDATE `tbl_category_form_fields` SET `cat_id` = '225' WHERE `tbl_category_form_fields`.`cat_id` = 229;
+UPDATE `tbl_category_form_fields` SET `cat_id` = '184' WHERE `tbl_category_form_fields`.`cat_id` = 234;
+UPDATE `tbl_category_form_fields` SET `cat_id` = '170' WHERE `tbl_category_form_fields`.`cat_id` = 228;
+UPDATE `tbl_category_form_fields` SET `cat_id` = '51' WHERE `tbl_category_form_fields`.`cat_id` = 208;
+UPDATE `tbl_category_form_fields` SET `cat_id` = '170' WHERE `tbl_category_form_fields`.`cat_id` = 227;
+UPDATE `tbl_category_form_fields` SET `cat_id` = '130' WHERE `tbl_category_form_fields`.`cat_id` = 230;
+UPDATE `tbl_category_form_fields` SET `cat_id` = '51' WHERE `tbl_category_form_fields`.`cat_id` = 222;
+UPDATE `tbl_category_form_fields` SET `cat_id` = '149' WHERE `tbl_category_form_fields`.`cat_id` = 224;
+
+62965
+
+Password - 
+$2y$10$.TViZqfO58HVV/9nNwVdkOtySFd1M2praqNRfak/G4J9M5xmDuJCm
+
+
+
+UPDATE `tbl_addlisting` SET `country` = '238', `countryofresidence` = '252' WHERE `tbl_addlisting`.`id` = 5511;

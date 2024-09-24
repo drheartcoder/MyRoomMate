@@ -1,0 +1,9 @@
+
+.cell_link:link, .cell_link:visited, .cell_link:active {
+	color:gray;
+	text-decoration:none;
+}
+
+.cell_link:hover { 
+	color: #404000;
+}

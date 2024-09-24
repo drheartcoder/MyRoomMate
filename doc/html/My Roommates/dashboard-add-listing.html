@@ -1,0 +1,289 @@
+
+    <div class="main-inner-gray">
+ <div class="container">
+     
+     <div class="row">
+         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+             <div class="sidebar inner-sidebr">
+                  <ul class="main-categories inner-sidebar">
+                        <li><a href="index.html#!/dashboard-my-profile" class="profile-icon">Profile</a></li>
+                        <li><a href="index.html#!/dashboard-change-password" class="change-password-icon">Change Password</a></li>
+                        <li><a href="index.html#!/dashboard-my-listing" class="my-listing-icon">My Listing</a></li>
+                        <li  class="active"><a href="index.html#!/dashboard-add-listing" class="add-listing-icon">Add Listing</a></li>
+                        <li><a href="index.html#!/dashboard-received-inquiry" class="received-inquiry-icon">Received Inquiry</a></li>
+                        <li><a href="index.html#!/dashboard-favorite" class="favourite-icon">Favourite</a></li>
+                        <li><a href="#" class="logout-icon">Logout</a></li>
+                    </ul>
+             </div>
+             
+         </div>
+         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
+            <div class="main-inner">
+             <form name="loginForm" novalidate>
+    
+             <div class="row">
+                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><div class="title-inner-page">Add Listing</div></div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="form-group input-box-w inner-inpt">
+                 <div class="title-redios">Categories</div>
+                <div class="select-bock-container">
+                        <select>
+                          <optgroup label="Categories">
+                            <option value="volvo">Lorem ipsum.</option>
+                            <option value="saab">Lorem ipsum dolor.</option>
+                          </optgroup>
+                          <optgroup label="Sub Categories">
+                            <option value="mercedes">Lorem ipsum dolor</option>
+                            <option value="audi">Lorem ipsum.</option>
+                          </optgroup>
+                        </select>
+                    </div>
+                  </div>
+                 </div>
+                
+                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                      <div class="form-group input-box-w inner-inpt" ng-class="{ 'has-error': loginForm.title.$touched && loginForm.title.$invalid }">
+                         <input type="text" class="input-box" name="text" ng-model="user.title" ng-minlength="5" ng-maxlength="20" required/>
+                         <span class="highlight"></span>
+                         <span class="bar"></span>
+                         <div ng-messages="loginForm.title.$error" ng-if="loginForm.$submitted || loginForm.title.$touched">
+                         <div ng-messages-include="error-message.html"></div>
+                         </div>
+                         <label>Title</label>
+                      </div>
+                 </div>
+                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                     <div class="form-group input-box-w">
+                      <!--image upload start here-->
+                        <div ng-controller="uploadImage">
+                             <div class="profile-pic">
+                               <div class="row">
+                                   <div class="col-sm-12 col-md-5 col-lg-3"><div class="profile-img"><img ng-src="{{filepreview}}" class="img-responsive" ng-show="filepreview" /></div></div>
+                                   <div class="col-sm-12 col-md-7 col-lg-9">
+                                        <input type="file" class="upload-btn" fileinput="file" filepreview="filepreview" ng-init="filepreview = 'images/user.png'" />
+                                        <button class="upload-btn2"><span><i class="fa fa-upload" aria-hidden="true"></i></span> Upload Photo</button>
+                                   </div>
+                               </div>
+                              </div>
+                            <!--image upload end here-->
+                         </div>
+                      </div>
+                 </div>
+                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                      <div class="form-group input-box-w inner-inpt" ng-class="{ 'has-error': loginForm.phonenumber.$touched && loginForm.phonenumber.$invalid }">
+                         <input type="text" class="input-box" name="text" ng-model="user.phonenumber" ng-minlength="5" ng-maxlength="20" required/>
+                         <span class="highlight"></span>
+                         <span class="bar"></span>
+                         <div ng-messages="loginForm.phonenumber.$error" ng-if="loginForm.$submitted || loginForm.phonenumber.$touched">
+                         <div ng-messages-include="error-message.html"></div>
+                         </div>
+                         <label>+91 5555565656</label>
+                      </div>
+                 </div>
+                 
+                 
+                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                      <div class="form-group input-box-w inner-inpt" ng-class="{ 'has-error': loginForm.rentpermonth.$touched && loginForm.rentpermonth.$invalid }">
+                         <input type="text" class="input-box" name="text" ng-model="user.rentpermonth" ng-minlength="5" ng-maxlength="20" required/>
+                         <span class="highlight"></span>
+                         <span class="bar"></span>
+                         <div ng-messages="loginForm.rentpermonth.$error" ng-if="loginForm.$submitted || loginForm.rentpermonth.$touched">
+                         <div ng-messages-include="error-message.html"></div>
+                         </div>
+                         <label>Rent Per Month</label>
+                      </div>
+                 </div>
+                 
+               
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                      <div class="form-group input-box-w inner-inpt">
+                         <div class="title-redios">Request Type</div>
+                          <div class="btns-main">
+                              
+                               <div class="radio-btn">
+                                <input id="f-option" name="selector" type="radio" />
+                                <label for="f-option"> Room Available </label>
+                                <div class="check"></div>
+                            </div>
+                            <div class="radio-btn">
+                                <input id="s-option" name="selector" type="radio" />
+                                <label for="s-option"> Room Needed </label>
+                                <div class="check">
+                                    <div class="inside"></div>
+                                </div>
+                            </div>
+                          </div>
+                          
+                     </div>
+                 </div>
+                 
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <div class="form-group input-box-w inner-inpt" ng-class="{ 'has-error': loginForm.inneraddress.$touched && loginForm.inneraddress.$invalid }">
+                          <textarea cols="" class="input-box textarea-txt height-areatxt" rows="" ng-model="user.inneraddress" ng-minlength="5" ng-maxlength="20" required></textarea>
+                         <span class="highlight"></span>
+                         <span class="bar"></span>
+                         <div ng-messages="loginForm.inneraddress.$error" ng-if="loginForm.$submitted || loginForm.inneraddress.$touched">
+                         <div ng-messages-include="error-message.html"></div>
+                         </div>
+                         <label>Details</label> 
+                      </div>
+                 </div>
+                 
+                 
+                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                      <div class="form-group input-box-w inner-inpt">
+                         <div class="title-redios">Room Furnished?</div>
+                          <div class="btns-main">
+                              
+                               <div class="radio-btn">
+                                <input id="a-option" name="selector" type="radio" />
+                                <label for="a-option"> Yes </label>
+                                <div class="check"></div>
+                            </div>
+                            <div class="radio-btn">
+                                <input id="b-option" name="selector" type="radio" />
+                                <label for="b-option"> No </label>
+                                <div class="check">
+                                    <div class="inside"></div>
+                                </div>
+                            </div>
+                          </div>
+                     </div>
+                 </div>
+                 
+                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                 <div class="form-group input-box-w inner-inpt">
+                 <div class="select-bock-container">
+                        <select>
+                            <option>-- Select Nationality Preference --</option>
+                            <option>Lorem ipsum dolor sit.</option>
+                        </select>
+                  </div>
+                 </div>
+                 </div>
+                 
+                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                      <div class="form-group input-box-w inner-inpt">
+                         <div class="title-redios">Gender</div>
+                          <div class="btns-main">
+                              
+                               <div class="radio-btn">
+                                <input id="c-option" name="selector" type="radio" />
+                                <label for="c-option"> Male </label>
+                                <div class="check"></div>
+                            </div>
+                            <div class="radio-btn">
+                                <input id="d-option" name="selector" type="radio" />
+                                <label for="d-option"> Female </label>
+                                <div class="check">
+                                    <div class="inside"></div>
+                                </div>
+                            </div>
+                            <div class="radio-btn">
+                                <input id="e-option" name="selector" type="radio" />
+                                <label for="e-option"> No Preference </label>
+                                <div class="check">
+                                    <div class="inside"></div>
+                                </div>
+                            </div>
+                          </div>
+                     </div>
+                 </div>
+                 
+                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                      <div class="form-group input-box-w inner-inpt">
+                      <div class="title-redios">Other Preferences?</div>
+                      <div class="listing-div innercheckbox">
+                    <p class="checkboxs">
+                         <input type="checkbox" class="filled-in" id="filled-in-box1" checked="checked" />
+                         <label for="filled-in-box1">Smoker</label>
+                    </p>
+                    <p class="checkboxs">
+                         <input type="checkbox" class="filled-in" id="filled-in-box2"/>
+                         <label for="filled-in-box2">Non Smoker</label>
+                    </p>
+                    <p class="checkboxs">
+                         <input type="checkbox" class="filled-in" id="filled-in-box3" checked="checked" />
+                         <label for="filled-in-box3">Pet Friendly</label>
+                    </p>
+                    <p class="checkboxs">
+                         <input type="checkbox" class="filled-in" id="filled-in-box4"/>
+                         <label for="filled-in-box4">Pets Not allowed</label>
+                    </p>
+                    </div>
+                     </div>
+                 </div>
+                 
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <div class="form-group input-box-w inner-inpt address-selectmap" ng-class="{ 'has-error': loginForm.address.$touched && loginForm.address.$invalid }">
+                          <textarea cols="" class="input-box textarea-txt" rows="" ng-model="user.address" ng-minlength="5" ng-maxlength="20" required></textarea>
+                         <span class="highlight"></span>
+                         <span class="bar"></span>
+                         <div ng-messages="loginForm.address.$error" ng-if="loginForm.$submitted || loginForm.address.$touched">
+                         <div ng-messages-include="error-message.html"></div>
+                         </div>
+                         <label>Address</label>
+                          <div class="link-map"><a href="#">Select a map</a></div>
+                      </div>
+                 </div>
+                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                 <div class="form-group input-box-w inner-inpt">
+                 <img src="images/add-listing-img.png" class="img-responsive" alt="" />
+                     </div>
+                 </div>
+                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                      <div class="form-group input-box-w inner-inpt">
+                         <div class="title-redios">Payment Options</div>
+                          <div class="btns-main">
+                              
+                               <div class="radio-btn">
+                                <input id="h-option" name="selector" type="radio" />
+                                <label for="h-option"> Free </label>
+                                <div class="check"></div>
+                            </div>
+                            <div class="radio-btn">
+                                <input id="i-option" name="selector" type="radio" />
+                                <label for="i-option"> Featured for 1 Week  USD 10 </label>
+                                <div class="check">
+                                    <div class="inside"></div>
+                                </div>
+                            </div>
+                            <div class="radio-btn">
+                                <input id="j-option" name="selector" type="radio" />
+                                <label for="j-option"> Featured for 2 Weeks USD 15 </label>
+                                <div class="check">
+                                    <div class="inside"></div>
+                                </div>
+                            </div>
+                             <div class="radio-btn">
+                                <input id="n-option" name="selector" type="radio" />
+                                <label for="n-option"> Paypal for now </label>
+                                <div class="check">
+                                    <div class="inside"></div>
+                                </div>
+                            </div>
+                          </div>
+                     </div>
+                 </div>
+                 
+                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                     <div class="button-innerpage">
+                         <a href="#">Submit</a>
+                     </div>
+                 </div>
+                 
+                 
+             </div>
+             
+             
+             
+            </form>
+             
+         </div>
+         </div>
+     
+ </div>
+</div> 
+
+    </div>
+    

@@ -1,0 +1,193 @@
+p {
+    margin-bottom: 7px;
+}
+.clearout {
+    height: 20px;
+    clear: both;
+}
+#flexiselDemo1,
+#flexiselDemo2,
+#flexiselDemo3 {
+    display: none;
+}
+.nbs-flexisel-container {
+    position: relative;
+    max-width: 100%;
+    
+    min-height: 315px;
+   
+    border-radius: 0 5px 5px 0;
+}
+.nbs-flexisel-ul {
+    position: relative;
+    width: 9999px;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+.nbs-flexisel-item .main-box {
+    margin: 0 15px 2px;
+    background: #fff;
+    position: relative;
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+.nbs-flexisel-inner {
+    overflow: hidden;
+    float: left;
+    width: 100%;
+}
+.nbs-flexisel-item {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    position: relative;
+}
+.product-one-main {
+    background: #f6f6f6;
+    padding: 20px 10px;
+    margin: 0 7px 22px;
+    position: relative;
+    overflow: hidden;
+}
+.product-img-block {
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.product-head {
+    font-size: 14px;
+    color: #2c2c2c;
+    letter-spacing: 0.25px;
+    text-align: center;
+    margin-top: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.product-content {
+    font-size: 13px;
+    color: #6a696f;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.unit-price-block {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+.min-price-block {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.amt-block-container {
+    margin-top: 20px;
+}
+.price-block-container {
+    font-size: 19px;
+    color: #312783;
+    font-family: 'robotomedium';
+}
+.price-content-container {
+    font-size: 13px;
+    color: #989797;
+}
+.min-pr {
+    padding-right: 12px;
+}
+.slide-one-main-container {
+    margin-bottom: 30px;
+}
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    background: #fafafa;
+    border: medium none;
+    border-radius: 0;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+    color: #f2711f;
+    cursor: pointer;
+    font-size: 28px;
+    height: 60px;
+    padding: 5px 0 0;
+    position: absolute;
+    text-align: center;
+    width: 30px;
+    z-index: 100;
+}
+.nbs-flexisel-nav-left {
+    background: #515457 url("../images/left-arrow.png") no-repeat scroll 8px 20px;
+    left: 0px;
+        bottom: 0;
+    top: 10%;
+    margin: auto 0;
+    
+}
+.nbs-flexisel-nav-left:hover {
+    background: #ef5025 url("../images/left-arrow.png") no-repeat scroll 8px 20px;
+    transition: 0.3s;
+}
+.nbs-flexisel-nav-right {
+    background: #515457 url("../images/right-arrow.png") no-repeat scroll 12px 20px;
+    right: 0px;
+        bottom: 0;
+    top: 10%;
+    margin: auto 0;
+   
+}
+.nbs-flexisel-nav-right:hover {
+    background: #ef5025 url("../images/right-arrow.png") no-repeat scroll 12px 20px;
+    transition: 0.3s;
+}
+
+.bottom-slider .nbs-flexisel-nav-left {
+    background: url("../images/bottom-arroe-left.png") no-repeat scroll 0px 7px;
+    left: -30px;
+    
+}
+.bottom-slider .nbs-flexisel-nav-left:hover {
+    background: url("../images/bottom-arroe-left.png") no-repeat scroll 0px -57px;
+    transition: 0s;
+}
+.bottom-slider .nbs-flexisel-nav-right {
+    background: url("../images/bottom-arroe-right.png") no-repeat scroll 4px -59px;
+    right: -30px;
+   
+}
+.bottom-slider .nbs-flexisel-nav-right:hover {
+    background: url("../images/bottom-arroe-right.png") no-repeat scroll 4px 5px;
+    transition: 0s;
+}
+.bottom-slider .nbs-flexisel-inner .nbs-flexisel-ul .nbs-flexisel-nav-left,.nbs-flexisel-nav-right{box-shadow: none !important;}
+.bottom-slider .nbs-flexisel-nav-left, .nbs-flexisel-nav-right {box-shadow: none !important;}
+
+@media all and (max-width:991px){
+.bottom-slider .nbs-flexisel-nav-left {left: -15px;}
+.bottom-slider .nbs-flexisel-nav-right {right: -15px;}
+}
+
+@media all and (max-width:767px){
+.bottom-slider .nbs-flexisel-nav-left {
+    background: url("../images/bottom-arroe-left-resp.png") no-repeat scroll 0px 7px;
+    left: -10px;
+    
+}
+.bottom-slider .nbs-flexisel-nav-left:hover {
+    background: url("../images/bottom-arroe-left-resp.png") no-repeat scroll 0px -57px;
+    transition: 0s;
+}
+.bottom-slider .nbs-flexisel-nav-right {
+    background: url("../images/bottom-arroe-right-resp.png") no-repeat scroll 15px -59px;
+    right: -10px;
+   
+}
+.bottom-slider .nbs-flexisel-nav-right:hover {
+    background: url("../images/bottom-arroe-right-resp.png") no-repeat scroll 15px 5px;
+    transition: 0s;
+} 
+
+}

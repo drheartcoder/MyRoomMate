@@ -1,0 +1,79 @@
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_cell`
+--
+
+CREATE TABLE IF NOT EXISTS `tbl_cell` (
+  `cell_id` int(11) NOT NULL auto_increment,
+  `active` varchar(1) NOT NULL,
+  `rlog_create_date_time` datetime default NULL,
+  `rlog_create_user_type` varchar(1) default NULL,
+  `rlog_create_user_id` int(11) default NULL,
+  `rlog_create_user_name` varchar(15) default NULL,
+  `rlog_edit_date_time` datetime default NULL,
+  `rlog_edit_user_type` varchar(1) default NULL,
+  `rlog_edit_user_id` int(11) default NULL,
+  `rlog_edit_user_name` varchar(15) default NULL,
+  `ad_id` varchar(24) default NULL,
+  `image_w` int(11) default NULL,
+  `image_h` int(11) default NULL,
+  `url_link` varchar(500) default NULL,
+  `pic` varchar(255) default NULL,
+  PRIMARY KEY  (`cell_id`)
+) ENGINE=MyISAM  AUTO_INCREMENT=1023 DEFAULT CHARSET=utf8;
+
+INSERT INTO `tbl_cell` (`cell_id`, `active`, `rlog_create_date_time`, `rlog_create_user_type`, `rlog_create_user_id`, `rlog_create_user_name`, `rlog_edit_date_time`, `rlog_edit_user_type`, `rlog_edit_user_id`, `rlog_edit_user_name`, `ad_id`, `image_w`, `image_h`, `url_link`, `pic`) VALUES
+(1001, 'Y', '2010-01-01 12:00:00', 'S', 1001, 'admin', '2010-01-01 12:00:00', 'S', NULL, NULL, 'A001', 300, 125, NULL, NULL ),
+(1002, 'Y', '2010-01-01 12:00:00', 'S', 1001, 'admin', '2010-01-01 12:00:00', 'S', NULL, NULL, 'A002', 300, 200, NULL, NULL ),
+(1003, 'Y', '2010-01-01 12:00:00', 'S', 1001, 'admin', '2010-01-01 12:00:00', 'S', NULL, NULL, 'A003', 300, 300, NULL, NULL ),
+(1004, 'Y', '2010-01-01 12:00:00', 'S', 1001, 'admin', '2010-01-01 12:00:00', 'S', NULL, NULL, 'A004', 300, 100, NULL, NULL ),
+(1005, 'Y', '2010-01-01 12:00:00', 'S', 1001, 'admin', '2010-01-01 12:00:00', 'S', NULL, NULL, 'A005', 300, 200, NULL, NULL ),
+(1006, 'Y', '2010-01-01 12:00:00', 'S', 1001, 'admin', '2010-01-01 12:00:00', 'S', NULL, NULL, 'A006', 300, 275, NULL, NULL ),
+(1007, 'Y', '2010-01-01 12:00:00', 'S', 1001, 'admin', '2010-01-01 12:00:00', 'S', NULL, NULL, 'A007', 300, 100, NULL, NULL ),
+(1008, 'Y', '2010-01-01 12:00:00', 'S', 1001, 'admin', '2010-01-01 12:00:00', 'S', NULL, NULL, 'A008', 300, 200, NULL, NULL ),
+(1009, 'Y', '2010-01-01 12:00:00', 'S', 1001, 'admin', '2010-01-01 12:00:00', 'S', NULL, NULL, 'A009', 300,  75, NULL, NULL ),
+(1010, 'Y', '2010-01-01 12:00:00', 'S', 1001, 'admin', '2010-01-01 12:00:00', 'S', NULL, NULL, 'A010', 300, 175, NULL, NULL ),
+(1011, 'Y', '2010-01-01 12:00:00', 'S', 1001, 'admin', '2010-01-01 12:00:00', 'S', NULL, NULL, 'B001', 150, 100, NULL, NULL ),
+(1012, 'Y', '2010-01-01 12:00:00', 'S', 1001, 'admin', '2010-01-01 12:00:00', 'S', NULL, NULL, 'B002', 180, 100, NULL, NULL ),
+(1013, 'Y', '2010-01-01 12:00:00', 'S', 1001, 'admin', '2010-01-01 12:00:00', 'S', NULL, NULL, 'B003', 220, 100, NULL, NULL ),
+(1014, 'Y', '2010-01-01 12:00:00', 'S', 1001, 'admin', '2010-01-01 12:00:00', 'S', NULL, NULL, 'B004', 120, 100, NULL, NULL ),
+(1015, 'Y', '2010-01-01 12:00:00', 'S', 1001, 'admin', '2010-01-01 12:00:00', 'S', NULL, NULL, 'B005', 140, 100, NULL, NULL ),
+(1016, 'Y', '2010-01-01 12:00:00', 'S', 1001, 'admin', '2010-01-01 12:00:00', 'S', NULL, NULL, 'B006', 300, 100, NULL, NULL ),
+(1017, 'Y', '2010-01-01 12:00:00', 'S', 1001, 'admin', '2010-01-01 12:00:00', 'S', NULL, NULL, 'C001', 125, 125, NULL, NULL ),
+(1018, 'Y', '2010-01-01 12:00:00', 'S', 1001, 'admin', '2010-01-01 12:00:00', 'S', NULL, NULL, 'C002', 125, 125, NULL, NULL ),
+(1019, 'Y', '2010-01-01 12:00:00', 'S', 1001, 'admin', '2010-01-01 12:00:00', 'S', NULL, NULL, 'C003', 125, 125, NULL, NULL ),
+(1020, 'Y', '2010-01-01 12:00:00', 'S', 1001, 'admin', '2010-01-01 12:00:00', 'S', NULL, NULL, 'C004', 125, 125, NULL, NULL ),
+(1021, 'Y', '2010-01-01 12:00:00', 'S', 1001, 'admin', '2010-01-01 12:00:00', 'S', NULL, NULL, 'C005', 125, 125, NULL, NULL ),
+(1022, 'Y', '2010-01-01 12:00:00', 'S', 1001, 'admin', '2010-01-01 12:00:00', 'S', NULL, NULL, 'C006', 125, 125, NULL, NULL );
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_staff`
+--
+
+CREATE TABLE IF NOT EXISTS `tbl_staff` (
+  `staff_id` int(11) NOT NULL auto_increment,
+  `active` varchar(1) NOT NULL,
+  `group_id` int(11) NOT NULL,
+  `username` varchar(15) default NULL,
+  `password` varchar(50) default NULL,
+  `rlog_create_date_time` datetime default NULL,
+  `rlog_create_user_type` varchar(1) default NULL,
+  `rlog_create_user_id` int(11) default NULL,
+  `rlog_create_user_name` varchar(15) default NULL,
+  `rlog_edit_date_time` datetime default NULL,
+  `rlog_edit_user_type` varchar(1) default NULL,
+  `rlog_edit_user_id` int(11) default NULL,
+  `rlog_edit_user_name` varchar(15) default NULL,
+  `rlog_last_login_date_time` datetime default NULL,
+  `email` varchar(100) default NULL,
+  `name` varchar(64) default NULL,
+  PRIMARY KEY  (`staff_id`),
+  UNIQUE KEY `username` (`username`)
+) ENGINE=MyISAM  AUTO_INCREMENT=1002  DEFAULT CHARSET=utf8;
+
+
+INSERT INTO `tbl_staff` (`staff_id`, `active`, `group_id`, `username`, `password`, `rlog_create_date_time`, `rlog_create_user_type`, `rlog_create_user_id`, `rlog_create_user_name`, `rlog_edit_date_time`, `rlog_edit_user_type`, `rlog_edit_user_id`, `rlog_edit_user_name`, `rlog_last_login_date_time`, `email`, `name`) VALUES
+(1001, 'Y', 1001, 'admin', 'password', '2010-01-01 00:00:00', 'S', 1001, 'admin', '2010-01-01 00:00:00', 'S', 1001, 'admin', '2010-01-01 00:00:00', 'admin@admin.com', 'Administrator');

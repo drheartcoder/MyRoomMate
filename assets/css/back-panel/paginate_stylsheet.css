@@ -1,0 +1,116 @@
+
+body,div,ul,li,p,h1,h2,h3
+
+{
+
+margin:0px; padding:0px;
+
+}
+
+.white-heading
+
+{
+
+	font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#FFF;
+
+}
+
+.white-heading a:link
+
+{
+
+	font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#FFF; text-decoration:none;
+
+}
+
+.white-heading a:visited
+
+{
+
+	font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#FFF; text-decoration:none;
+
+}
+
+.white-heading a:hover
+
+{
+
+	font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#FFF; text-decoration:underline;
+
+}
+
+
+
+
+
+.paginate {
+
+font-family:Arial, Helvetica, sans-serif;
+
+	padding: 3px;
+
+	margin: 3px;
+
+}
+
+
+
+.paginate a {
+
+	padding:2px 5px 2px 5px;
+
+	margin:2px;
+
+	border:1px solid #999;
+
+	text-decoration:none;
+
+	color: #666;
+
+}
+
+.paginate a:hover, .paginate a:active {
+
+	border: 1px solid #999;
+
+	color: #000;
+
+}
+
+.paginate span.current {
+
+    margin: 2px;
+
+	padding: 2px 5px 2px 5px;
+
+		border: 1px solid #999;
+
+		
+
+		font-weight: bold;
+
+		background-color: #999;
+
+		color: #FFF;
+
+	}
+
+	.paginate span.disabled {
+
+		padding:2px 5px 2px 5px;
+
+		margin:2px;
+
+		border:1px solid #eee;
+
+		color:#DDD;
+
+	}
+
+a
+
+{
+
+	text-decoration:none;
+
+}

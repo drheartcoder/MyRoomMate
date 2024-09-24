@@ -1,0 +1,93 @@
+<header ng-controller="HeaderCntrl">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-7 col-sm-7 col-md-3 col-lg-3">
+                <a href="index.html#!/" class="logo"><img src="images/logo.png" class="img-responsive" alt="My-Roommate" /></a>
+            </div>
+            <div class="col-xs-5 col-sm-5 hidden-md hidden-lg">
+                <div class="resp-block">
+                    <span class="resp-search visible-xs" value="Toggle Second" data-slide-toggle="#box5" data-slide-toggle-duration="1000"><i class="fa fa-search"></i></span>
+                    <span class="menu-icon  visible-xs visible-sm" ng-click="openNav()">&#9776;</span>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                <div class="search-section" id="box5">
+                    <div class="search-block-w">
+                        <div class="select-style">
+                            <select class="frm-select">
+                                   <option>Select an Option</option>
+                                   <option>9</option>
+                                   <option>6</option>
+                                   <option>3</option>
+                              </select>
+                        </div>
+                        <span><input type="text" class="search-bx" placeholder="What are you Looking For?"/></span>
+                        <button class="search hvr-icon-pulse">&nbsp;<!--<i class="fa fa-search"></i>--></button>
+                    </div>
+
+                    <a href="#" class="post-ads hvr-ripple-out hidden-xs hidden-sm">Free Post Ads</a>
+                    <a class="login hidden-xs hidden-sm" data-toggle="modal" href="#login">Login</a>
+
+                    <span class="menu-icon  visible-sm" ng-click="openNav()">&#9776;</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="top-menu">
+        <div class="container">
+            <div class="sidenav" id="mySidenav">
+                <a class="closebtn" ng-click="closeNav()">&times;</a>
+                <div class="banner-img-block">
+                    <a href="index.html#!/"> <img src="images/small-logo.png" class="img-responsive" alt="" /></a>
+                </div>
+                <ul class="min-menu">
+                    <li><a href="index.html#!/">Home</a></li>
+                    <li class="mega-menu sub-menu"><a href="javascript:void(0)">Available Rooms <i class="fa fa-angle-down"></i></a>
+                        <ul class="su-menu">                            
+                            <li><a href="#">Lorem ipsum.</a></li>
+                            <li><a href="#">Lorem ipsum.</a></li>
+                            <li><a href="#">Lorem ipsum.</a></li>
+                            <li><a href="#">Lorem ipsum.</a></li>                            
+                        </ul>
+                    </li>
+                    <li class="mega-menu sub-menu"><a href="javascript:void(0)">Request <i class="fa fa-angle-down"></i></a>
+                        <ul class="su-menu">                            
+                            <li><a href="#">Lorem ipsum.</a></li>
+                            <li><a href="#">Lorem ipsum.</a></li>
+                            <li><a href="#">Lorem ipsum.</a></li>
+                            <li><a href="#">Lorem ipsum.</a></li>                            
+                        </ul>
+                    </li>
+                    <li class="mega-menu sub-menu"><a href="javascript:void(0)">Classified <i class="fa fa-angle-down"></i></a>
+                        <ul class="su-menu">                            
+                            <li><a href="#">Lorem ipsum.</a></li>
+                            <li><a href="#">Lorem ipsum.</a></li>
+                            <li><a href="#">Lorem ipsum.</a></li>
+                            <li><a href="#">Lorem ipsum.</a></li>                            
+                        </ul>
+                    </li>
+                    <li class="mega-menu sub-menu"><a href="index.html#!/dashboard-add-listing">Add a Listing <i class="fa fa-angle-down"></i></a>
+                        <ul class="su-menu">                            
+                            <li><a href="#">Lorem ipsum.</a></li>
+                            <li><a href="#">Lorem ipsum.</a></li>
+                            <li><a href="#">Lorem ipsum.</a></li>
+                            <li><a href="#">Lorem ipsum.</a></li>                            
+                        </ul>
+                    </li>
+                    <li class="mega-menu sub-menu"><a href="javascript:void(0)">Rent <i class="fa fa-angle-down"></i></a>
+                        <ul class="su-menu">                            
+                            <li><a href="#">Lorem ipsum.</a></li>
+                            <li><a href="#">Lorem ipsum.</a></li>
+                            <li><a href="#">Lorem ipsum.</a></li>
+                            <li><a href="#">Lorem ipsum.</a></li>                            
+                        </ul>
+                    </li>
+                    <li class="visible-xs visible-sm"><a href="#">Free Post Ads<i class="fa fa-angle-down"></i></a></li>
+                    <li class="visible-xs visible-sm"><a data-toggle="modal" href="#login" ng-click="closeNav()">Login<i class="fa fa-angle-down"></i></a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>

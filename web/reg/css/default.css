@@ -1,0 +1,58 @@
+
+#container {
+	width:100%;
+	margin:0 auto;
+}
+
+#main_div {
+	width:98%;
+	margin:0 auto;
+}
+
+.info_msg {
+	color: #008000;
+	font-weight: bold;
+}
+
+.err_msg {
+	color: #FF0000;
+	font-weight: bold;
+}
+
+td.td_caption {
+	width: 200px;
+	font-size: 100%;
+	text-align: right;
+	padding: 5px 5px;
+}
+
+td.td_value {
+	font-size: 100%;
+	text-align: left;
+	padding: 5px 5px;
+}
+
+.required {
+	color: #FF0000;
+}
+
+a:link { color: #5656FF; }
+a:visited { color: #5656FF; }
+a:active { color: #5656FF; }
+a:hover { color: #00b000; }
+
+.btn {
+	/*padding:2px 12px 2px 12px;*/
+	/*border:1px solid #1868D7;*/
+	/*background-color:#1C9BEF;*/
+	color:#000000;
+	font-weight:bold;
+}
+
+.image_size {
+	padding:0px 2px 0px 2px;
+	border:0px solid #1868D7;
+	background-color:#FF9321;
+	color:#ffffff;
+	font-weight:bold;
+}
